@@ -1,0 +1,30 @@
+Vicky McDermott
+Truth Tables for DeMorgan's Laws
+
+Truth tables for ~A*~B = ~(A+B)
+
+A B | ~A ~B | ~A~B
+0 0 |  1  1 |    1
+0 1 |  1  0 |    0
+1 0 |  0  1 |    0
+1 1 |  0  0 |    0
+
+A B | A+B | ~(A+B)
+0 0 |  0  |    1
+0 1 |  1  |    0
+1 0 |  1  |    0
+1 1 |  1  |    0
+
+
+Truth tables for ~(A*B) = ~A+~B
+A B | A*B | ~(A*B)
+0 0 |  0  |    1
+0 1 |  0  |    1
+1 0 |  0  |    1
+1 1 |  1  |    0
+
+A B | ~A ~B | ~A+~B
+0 0 |  1  1 |    1
+0 1 |  1  0 |    1
+1 0 |  0  1 |    1
+1 1 |  0  0 |    0
